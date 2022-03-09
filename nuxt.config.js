@@ -30,7 +30,8 @@ export default {
   buildModules: [
     '@nuxtjs/composition-api/module',
     '@nuxtjs/google-fonts',
-    'nuxt-webpack-optimisations'
+    'nuxt-webpack-optimisations',
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

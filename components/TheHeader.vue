@@ -1,12 +1,14 @@
-<template>
-  <section>
+<template class="py-1.5">
+  <section class="mt-8">
     <header>
-      <h1>Dev Ed Landing Page</h1>
+      <h1 class="text-xl">Dev Ed Landing Page</h1>
     </header>
     <div class="links">
-      <NuxtLink to="/">Merch Store</NuxtLink>
-      <NuxtLink to="/">Login</NuxtLink>
-      <NuxtLink to="/">Sign Up</NuxtLink>
+      <NuxtLink to="/" class="text-black font-extrabold mx-3"
+        >Merch Store</NuxtLink
+      >
+      <NuxtLink to="/" class="text-black font-extrabold mx-3">Login</NuxtLink>
+      <NuxtLink to="/" class="text-black font-extrabold mx-3">Sign Up</NuxtLink>
     </div>
   </section>
 </template>
@@ -23,16 +25,16 @@
 /* template {
 } */
 
-NuxtLink {
+/* NuxtLink {
   text-decoration: none;
   list-style-type: none;
-}
-
+} */
+/* 
 .links {
   display: flex;
   text-decoration: none;
   list-style-type: none;
-}
+} */
 
 section {
   display: flex;

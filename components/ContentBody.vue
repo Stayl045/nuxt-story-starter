@@ -1,14 +1,18 @@
 <template>
-  <section>
+  <section class="mt-7">
     <div class="box box-a">
-      <div class="card-container">
+      <div class="card-container grid">
         <header>
-          <h1>Coding and a Design Course</h1>
+          <h1 class="text-xl text-white">Coding and a Design Course</h1>
         </header>
         <p>
           Learn Program Technology like HTML, CSS, JavaScript, React and more.
         </p>
-        <h2 class="card-btn"><a href="#" class="btn">View Courses</a></h2>
+        <h2 class="card-btn">
+          <a href="#" class="text-white flex flex-center align-center"
+            >View Courses</a
+          >
+        </h2>
       </div>
     </div>
   </section>
@@ -29,6 +33,7 @@ section {
   background-image: url('https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
